@@ -1,0 +1,22 @@
+[
+    {
+        "pattern" : "/gpu([\\d]+)_graphics_clock_report/i",
+        "graph"   : "gpu_graphics_clock_report"
+    },
+    {
+        "pattern" : "/gpu([\\d]+)_mem_clock_report/i",
+        "graph"   : "gpu_mem_clock_report"
+    },
+    {
+        "pattern" : "/gpu([\\d]+)_power_usage_report/i",
+        "graph"   : "gpu_power_usage_report"
+    },
+    {
+        "pattern" : "/gpu([\\d]+)_power_violation_report/i",
+        "graph"   : "gpu_power_violation_report"
+    },
+    {
+        "pattern" : "/gpu([\\d]+)_sm_clock_report/i",
+        "graph"   : "gpu_sm_clock_report"
+    }
+]
